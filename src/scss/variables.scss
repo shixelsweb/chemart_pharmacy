@@ -1,0 +1,15 @@
+$white: #fff;
+$green: #154b2b;
+$neon: #bbd804;
+$orange: #f37900;
+$light_grey: #F8F8F8;
+$light_dark_grey: #ddd;
+$dark_grey: #666;
+
+@include font-face("Lobster", font-files("/src/fonts/Lobster.otf"));
+@include font-face("Arcade", font-files("/src/fonts/ka1.ttf"));
+@include font-face("Open Sans", font-files("/src/fonts/OpenSans.ttf"));
+
+$cursive: "Lobster";
+$arcade: "Arcade";
+$sans: "Open Sans";

@@ -1,0 +1,281 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url(/src/fonts/Lobster.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Arcade";
+  src: url(/src/fonts/ka1.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(/src/fonts/OpenSans.ttf) format('truetype');
+}
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+/* line 11, ../scss/screen.scss */
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 16, ../scss/screen.scss */
+#CH_nav {
+  height: 120px;
+  width: 100%;
+}
+/* line 19, ../scss/screen.scss */
+#CH_nav .CH_nav_top {
+  height: 65%;
+  padding: 0 90px;
+}
+/* line 23, ../scss/screen.scss */
+#CH_nav .CH_nav_top .CH_nav_top_left {
+  float: left;
+  width: 30;
+  height: 100%;
+}
+/* line 28, ../scss/screen.scss */
+#CH_nav .CH_nav_top .CH_nav_top_left .CH_logo {
+  height: 90%;
+  margin-top: 5px;
+}
+/* line 33, ../scss/screen.scss */
+#CH_nav .CH_nav_top .CH_nav_top_right {
+  float: right;
+  width: 70%;
+  height: 100%;
+}
+/* line 38, ../scss/screen.scss */
+#CH_nav .CH_nav_top .CH_nav_top_right .CH_button {
+  float: right;
+  width: 20%;
+  height: 55%;
+  margin: 20px 10px;
+  border-radius: 6px;
+  font-family: cursive;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0 15px;
+  text-align: center;
+  text-shadow: 0px 0px 2px #666666;
+}
+/* line 52, ../scss/screen.scss */
+#CH_nav .CH_nav_top .CH_nav_top_right .CH_button.orange {
+  background: #f37900;
+  border: 0;
+  border-bottom: 4px solid #8d4600;
+}
+/* line 60, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom {
+  height: 35%;
+  padding: 0 90px;
+}
+/* line 64, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom .CH_nav_menu {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: relative;
+  bottom: 1px;
+  font-family: "Open Sans";
+}
+/* line 72, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom .CH_nav_menu li {
+  display: inline-block;
+  height: 100%;
+  line-height: 45px;
+  text-transform: uppercase;
+  width: 14%;
+  float: left;
+  background: #f8f8f8;
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  margin-left: -1px;
+  text-align: center;
+  color: #666666;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+/* line 87, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom .CH_nav_menu li.active {
+  background: white;
+}
+/* line 89, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom .CH_nav_menu li.active a {
+  color: #bbd804;
+}
+/* line 93, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom .CH_nav_menu li.active:hover {
+  background: white;
+}
+/* line 95, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom .CH_nav_menu li.active:hover a {
+  color: #4d4d4d;
+}
+/* line 101, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom .CH_nav_menu li:hover {
+  background: #dddddd;
+}
+/* line 104, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom .CH_nav_menu li:hover a {
+  color: #4d4d4d;
+}
+/* line 109, ../scss/screen.scss */
+#CH_nav .CH_nav_bottom .CH_nav_menu li a {
+  text-decoration: none;
+  color: #666666;
+}
+
+/* line 119, ../scss/screen.scss */
+#CH_carosel {
+  height: 450px;
+}
+/* line 123, ../scss/screen.scss */
+#CH_carosel .carosel {
+  height: 425px;
+  width: 100%;
+}
+/* line 126, ../scss/screen.scss */
+#CH_carosel .carosel img {
+  width: 100%;
+  height: auto;
+}
+/* line 132, ../scss/screen.scss */
+#CH_carosel .navigation {
+  width: 100%;
+  height: 25px;
+}
+
+/* line 138, ../scss/screen.scss */
+#CH_body {
+  height: 320px;
+  padding: 15px 0;
+}
+/* line 141, ../scss/screen.scss */
+#CH_body .CH_body_left {
+  float: left;
+  width: 25%;
+  height: 100%;
+  background: blue;
+}
+/* line 148, ../scss/screen.scss */
+#CH_body .CH_body_right {
+  float: right;
+  width: 75%;
+  height: 100%;
+  background: yellow;
+}
+
+/* line 156, ../scss/screen.scss */
+#CH_quotes {
+  height: 200px;
+  padding: 0 90px;
+  background: #f8f8f8;
+  border-top: 1px solid #dddddd;
+}
+
+/* line 163, ../scss/screen.scss */
+#CH_footer {
+  height: 240px;
+  width: 100%;
+}
+/* line 167, ../scss/screen.scss */
+#CH_footer .CH_footer_top {
+  height: 200px;
+  background: #3A3A3A;
+}
+/* line 172, ../scss/screen.scss */
+#CH_footer .CH_footer_bottom {
+  padding: 0 90px;
+  height: 40px;
+  background: #323232;
+}
