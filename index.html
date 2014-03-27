@@ -60,6 +60,12 @@
 	<div id="CH_nav">
 		<div class="CH_nav_top">
 			<div class="CH_nav_top_left"><img class="CH_logo" src="/src/img/logo.jpg"></div>
+			<div class="CH_nav_top_mid">
+				<p id="mid_top">
+					<a href="">Sign In</a> | <a href="">Create an Account</a>
+				</p>
+				<p mid="mid_low"><span>Hours:</span> 9:00am - 6:00pm, Monday - Friday</p>
+			</div>
 			<div class="CH_nav_top_right">
 				<div class="CH_top_nav"></div>
 				<button class="CH_button orange">07090445833</button>
@@ -77,22 +83,135 @@
 			</ul>
 		</div>
 	</div>
-	<div id="CH_carosel">
-		<div class="carosel">
-			<img src="/src/img/carosel/1.jpg">
+	<div id="CH_carousel">
+		<div class="carousel">
+			<img src="/src/img/carosel/carousel_1.png">
+			<button class="button_consult">Request An Appointment</button>
+			<div id="carousel_title">
+				<h1><span>Let Chemart</span><br>Manage Your Health</h1>
+			</div>
+			<div id="carousel_links">
+				<h1>My Pharmacy</h1>
+				<ul id="carousel_nav">
+					<li>&rtrif; Refill A Prescription</li>
+					<li>&rtrif; Ask A Pharmacist</li>
+					<li>&rtrif; Request A Consultation</li>
+				</ul>
+			</div>
 		</div>
 		<div class="navigation"></div>
-	</div>
+	</div> <!-- Closes Carousel -->
 	<div id="CH_body">
-		<div class="CH_body_left"></div>
-		<div class="CH_body_right"></div>
+		<div class="CH_body_left">
+			<h3><span>Chemart</span><br> Pharmacy</h3>
+			<button>Learn More</button>
+		</div>
+		<div class="CH_body_right">
+			<div class="CH_learn_container">
+				<div class="CH_learn_img">
+					<img src="/src/img/lab_1.jpg">
+				</div>
+				<div class="CH_learn_title">Getting to Know Chemart</div>
+				<div class="CH_learn_desc">This is Lorem Ipsum Text For the Learn section</div>
+				<ul class="CH_learn_links">
+					<li>Learn About Us</li>
+					<li>Meet Our Staff</li>
+					<li>&nbsp;</li>
+				</ul>
+			</div>
+			<div class="CH_learn_container">
+				<div class="CH_learn_img"><img src="/src/img/pharmacy_new.jpg"></div>
+				<div class="CH_learn_title">We Support You</div>
+				<div class="CH_learn_desc">This is Lorem Ipsum Text For the Learn section</div>
+				<ul class="CH_learn_links">
+					<li>Brands We Offer</li>
+					<li>Manage Your Prescription</li>
+					<li>Program Enrollment</li>
+				</ul>
+			</div>
+			<div class="CH_learn_container">
+				<div class="CH_learn_img"><img src="/src/img/lab_2.jpg"></div>
+				<div class="CH_learn_title">Patient Healthcare</div>
+				<div class="CH_learn_desc">This is Lorem Ipsum Text For the Learn section</div>
+				<ul class="CH_learn_links">
+					<li>Patient Insurance</li>
+					<li>Finding Your Account Manager</li>
+					<li>Questions and Concerns</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 	<div id="CH_quotes">
+		<div class="CH_quote_container">
+			<img src="/src/img/head_1.png">
+			<ul>
+				<li class="CH_user_quote">
+					"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				</li>
+				<li class="CH_user_name">
+					Shayna Johnson | Lagos, Nigeria
+				</li>
+			</ul>
+
+		</div>
 		
 	</div>
 	<div id="CH_footer">
-		<div class="CH_footer_top"></div>
-		<div class="CH_footer_bottom"></div>
+		<div class="CH_footer_top">
+			<div class="CH_contact_form pull_left">
+				<h3>Sign Up for Pharamacy Updates</h3>
+				<input type="text" name="email" placeholder="Name"><br>
+				<input type="text" name="email" placeholder="Email Address"><br>
+				<div id="check-container">
+					<input type="checkbox">
+					<label>I agree to the terms of service</label>
+				</div>
+				<input type="submit">
+				
+			</div>
+			<div class="CH_page_nav_container pull_left">
+				<div class="CH_quick_links nav_section">
+					<ul class="CH_quick_links_list">
+						<li class="title">Site Links</li>
+						<li>&rtrif; <a href="">About Us</a></li>
+						<li>&rtrif; <a href="">Careers</a></li>
+						<li>&rtrif; <a href="">Products</a></li>
+						<li>&rtrif; <a href="">Staff</a></li>
+					</ul>
+				</div>
+				<div class="CH_pharmacy_info nav_section">
+					<ul>
+						<li class="title">Pharmacy</li>
+						<li>212 Milbrook drive</li>
+						<li>Lagos, Nigeria 23456</li>
+						<li>&nbsp;</li>
+						<li>tel: +234 80809090</li>
+						<li>fax: +234 80809090</li>
+					</ul>
+
+				</div>
+				<div class="CH_pharmacy_hours nav_section">
+					<ul>
+						<li class="title">Hours</li>
+						<li>Monday - Friday</li>
+						<li>800 - 2200</li>
+						<li><img src="/src/img/logo_clear.png" id="phar_img"></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="CH_footer_bottom">
+			<ul class="pull_left">
+				<li><a href="">PRIVACY POLICY</a></li>
+				<li><a href="">FACEBOOK</a></li>
+				<LI><a href="">TWITTER</a></LI>
+			</ul>
+			<p class="pull_right">
+				Copyright 2014 Chemart
+			</p>
+		</div>
+		<div class="clear"></div>
 	</div>
 
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
